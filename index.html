@@ -9,7 +9,7 @@
     content="A joint workshop for egocentric computer vision from EPIC, Ego4D, and HBHA." />
   <meta name="keywords" content="video dataset, machine perception, machine-learning, research, egocentric videos, ego4d, epic-kitchens" />
 
-  <title>Second Joint Egocentric Vision Workshop</title>
+  <title>Third Joint Egocentric Vision Workshop</title>
   <link rel="preconnect" href="https://use.fontawesome.com" />
   <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" />
   <link rel="preconnect" href="https://ajax.googleapis.com" />
@@ -131,7 +131,7 @@
               <a href="#challenges" class="nav-link">Challenges</a>
             </li>
             <li class="nav-item">
-              <a href="#cfp" class="nav-link">Call for Abstracts</a>
+              <a href="#cfp" class="nav-link">Call for Papers</a>
             </li>
             <li class="nav-item">
               <a href="#impdates" class="nav-link">Important Dates</a>
@@ -139,9 +139,9 @@
             <li class="nav-item">
               <a href="#program" class="nav-link">Program</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#papers" class="nav-link">Papers</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a href="#invited" class="nav-link">Invited Speakers</a>
             </li>
@@ -162,10 +162,10 @@
     <div class="container">
       <div >
         <div id="tab-header" class="align-center">
-          <h3 class="title no-margin title1">Second Joint Egocentric Vision (EgoVis) Workshop</h3>
-          <h4 class="title no-margin title2">Held in Conjunction with CVPR 2025</h4>
-          <h5 class="title no-margin title3">12 June 2025 - Nashville, USA</h5>
-          <h5 class="title no-margin title3">Room: Grand B1</h5>
+          <h3 class="title no-margin title1">Third Joint Egocentric Vision (EgoVis) Workshop</h3>
+          <h4 class="title no-margin title2">Held in Conjunction with CVPR 2026</h4>
+          <h5 class="title no-margin title3">3/4 June 2026 - Denver, CO, USA</h5>
+          <h5 class="title no-margin title3">Room: TBD</h5>
           
           <p class="sub-title slide-text">
             This joint workshop aims to be the focal point for the egocentric computer vision 
@@ -289,303 +289,10 @@
         <div class="col-xs-12 align-center">
           <h3 class="title large-text">Challenges</h3>
         </div>
-        <p>We welcome submissions to the challenges from February to May (see <a href="#impdates">important dates</a>) through the leaderboards linked below.
-        Participants to the challenges are requested to submit a technical report on their method. 
-        This is a requirement for the competition. Reports should be 2-6 pages including references. 
-        Submissions should use <a target="_blank" href="https://github.com/cvpr-org/author-kit/releases/tag/CVPR2025-v3.1(latex)">the CVPR format</a> and should be submitted through the <a target="_blank" href="https://cmt3.research.microsoft.com/EgoVis2025/">CMT website</a>.</p>
-        <h4 class="title2">HoloAssist Challenges</h4>
-        <p><a target="_blank" href="https://holoassist.github.io/">HoloAssist</a> is a large-scale egocentric human interaction dataset, where two people collaboratively complete physical manipulation tasks.</p>
-        <div class="challenge-container">
-          <div class="challenge-card">
-            <div class="challenge-title">Action Recognition</div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Taein Kwon, ETH Zurich, Switzerland<br>
-              <strong>Summary:</strong>Action Recognition on the holoassist dataset. Input could be RGB images or multiple modalities.<br>
-              <!-- <strong>Current SOTA:</strong> </a><br> -->
-              <!-- <strong>Previous Winner:</strong>  -->
-            </div>
-            <a target="_blank" href="https://www.codabench.org/competitions/2611/" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Mistake Detection</div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Mahdi Rad, Microsoft, Switzerland<br>
-              <strong>Summary:</strong>Mistake detection is defined following the convention Assembly101 but applied to fine-grained actions in our benchmark. We take the features from the fine-grained action clips from the beginning of the coarse-grained action until the end of the current action clip, and the model predicts a label from {correct, mistake}.<br>
-              <!-- <strong>Current SOTA:</strong> </a><br> -->
-              <!-- <strong>Previous Winner:</strong> </div> -->
-            <a target="_blank" href="https://www.codabench.org/competitions/2613/" class="challenge-link">Challenge Link</a>
-          </div> 
-        </div>
-        </div>
-
-        <h4 class="title2">Ego4D Challenges</h4>
-        <p>Ego4D is a massive-scale, egocentric dataset and benchmark suite collected across 
-          74 worldwide locations and 9 countries, with over 3,670 hours of daily-life activity 
-          video. Please find details below on our challenges:
+      </div>
+        <p>
+          Details coming soon...
         </p>
-        <div class="challenge-container">
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Episodic Memory</div>
-            <div class="challenge-track">Track: <b>Visual Queries</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Suyog Jain, Meta, US<br>
-              <strong>Summary:</strong>Given an egocentric video, the goal is to answer queries of the form "Where did I last see object X?", where the query object X is specified as a static image.<br>
-              <!-- <strong>Current SOTA:</strong> </a><br> -->
-              <!-- <strong>Previous Winner:</strong>  -->
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1843/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Episodic Memory</div>
-            <div class="challenge-track">Track: <b>Natural Language Queries</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Suyog Jain, Meta, US<br>
-              <strong>Summary:</strong>Given an egocentric video V and a natural language query Q, the goal is to identify a response track r, such that the answer to Q can be deduced from r.<br>
-              <!-- <strong>Current SOTA:</strong> </a><br> -->
-              <!-- <strong>Previous Winner:</strong> -->
-             </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1629/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Episodic Memory</div>
-            <div class="challenge-track">Track: <b>Moment Queries</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Chen Zhao & Merey Ramazanova, KAUST, SA<br>
-              <strong>Summary:</strong> Given an input video and a query action category, the goal is to retrieve all the instances of this action category in the video.<br>
-              <strong>Current SOTA:</strong> <a href="https://arxiv.org/pdf/2407.17792" target="_blank">Paper</a><br>
-              <strong>Previous Winner:</strong> 34.99
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1626/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Episodic Memory</div>
-            <div class="challenge-track">Track: <b>Goal Step</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Yale Song, Meta, US<br>
-              <strong>Summary:</strong> Given an untrimmed egocentric video, identify the temporal action segment corresponding to a natural language description of the step. Specifically, predict the (start_time, end_time) for a given keystep description.<br>
-              <strong>Current SOTA:</strong> <a href="https://arxiv.org/abs/2406.09575" target="_blank">Paper</a><br>
-              <strong>Previous Winner:</strong> 35.18 r@1, IoU=0.3
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2188/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Episodic Memory</div>
-            <div class="challenge-track">Track: <b>EgoSchema</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Karttikeya Mangalam & Raiymbek Akshulakov, UC Berkeley, US<br>
-              <strong>Summary:</strong> EgoSchema is a very long-form video question-answering dataset and benchmark to evaluate long video understanding capabilities of modern vision and language systems.<br>
-              <strong>Current SOTA:</strong> 0.75 (report unavailable)<br>
-              <strong>Previous Winner:</strong> N/A
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2238/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Social Interaction</div>
-            <div class="challenge-track">Track: <b>Looking at me</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Xizi Wang, Indiana University, US<br>
-              <strong>Summary:</strong>The task focuses on identifying communicative acts that are directed towards the camera-wearer, as distinguished from those directed to other social partners<br>
-              <!-- <strong>Current SOTA:</strong> </a><br> -->
-              <!-- <strong>Previous Winner:</strong>  -->
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1624/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Social Interaction</div>
-            <div class="challenge-track">Track: <b>Talking to me</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Xizi Wang, Indiana University, US<br>
-              <strong>Summary:</strong>Given a video and audio segment with the same tracked faces and an additional label that identifies speaker status, classify whether each visible face is talking to the camera wearer.<br>
-              <!-- <strong>Current SOTA:</strong> </a><br> -->
-              <!-- <strong>Previous Winner:</strong> -->
-             </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1625/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Forecasting</div>
-            <div class="challenge-track">Track: <b>Short-term object interaction anticipation</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Francesco Ragusa, University of Catania, IT<br>
-              <strong>Summary:</strong>This task aims to predict the next human-object interaction happening after a given timestamp. Given an input video, the goal is to anticipate 1)the spatial positions of the active objects, 2) the category of each detected next active objects, 3) how each active object will be used (verb), 4) and when the interaction will begin.<br>
-              <strong>Current SOTA:</strong><a href="https://arxiv.org/abs/2406.18070" target="_blank">Paper 1; </a><a href="https://arxiv.org/abs/2406.01194" target="_blank">Paper 2</a><br>
-              <strong>Previous Winner:</strong> Top-5 Overall mAP: 7.21
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1623/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">Ego4D Forecasting</div>
-            <div class="challenge-track">Track: <b>Long-term action anticipation</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Tushar Nagarajan, FAIR, US<br>
-              <strong>Summary:</strong> This task aims to predict the next Z future actions after a given action. Given an input video up to a particular timestep (corresponding to the last visible action), the goal is to predict a list of action classes [(verb1, noun1), (verb2, noun2) ... (verbZ, nounZ)] that follow it.<br>
-              <strong>Current SOTA:</strong> <a href="https://arxiv.org/pdf/2406.18070" target="_blank">Paper</a><br>
-              <strong>Previous Winner:</strong> N/A
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/1598/overview" class="challenge-link">Challenge Link</a>
-          </div>
-        </div>
-      <h4 class="title2">Ego-Exo4D Challenges</h4>
-      <p>Ego-Exo4D is a diverse, large-scale multi-modal multi view video dataset and 
-        benchmark challenge. Ego-Exo4D centers around simultaneously-captured ego-
-        centric and exocentric video of skilled human activities (e.g., sports, music, dance, 
-        bike repair).</p>
-        <div class="challenge-container">
-          <div class="challenge-card">
-            <div class="challenge-title">EgoExo4D Pose Challenge</div>
-            <div class="challenge-track">Track: <b>Ego-Pose Body</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Juanita Puentes Mozo & Gabriel Perez Santamaria, Los Andes<br>
-              <strong>Summary:</strong> The EgoExo4D Body Pose Challenge aims to accurately estimate body pose using only first-person raw video and/or egocentric camera pose.<br>
-              <strong>Current SOTA:</strong> <a href="https://openaccess.thecvf.com/content/WACV2025/html/Escobar_EgoCast_Forecasting_Egocentric_Human_Pose_in_the_Wild_WACV_2025_paper.html" target="_blank">EgoCast</a> (MPJPE: 14.36)<br>
-              <strong>Previous Winner:</strong> MPJPE: 15.32
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2245/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">EgoExo4D Pose Challenge</div>
-            <div class="challenge-track">Track: <b>Ego-Pose Hands</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Shan Shu, University of Pennsylvania, US<br>
-              <strong>Summary:</strong> <br>
-              <strong>Current SOTA:</strong> </a><br>
-              <strong>Previous Winner:</strong> 
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2249/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">EgoExo4D Proficiency Estimation</div>
-            <div class="challenge-track">Track: <b>Demonstrator Proficiency</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Arjun Somayazulu, UT Austin, US<br>
-              <strong>Summary:</strong> Given synchronized egocentric and exocentric video of a demonstrator performing a task, classify the proficiency skill level of the demonstrator.<br>
-              <strong>Current SOTA:</strong> <a href="https://arxiv.org/abs/2311.18259" target="_blank">EgoExo4D benchmark baseline</a><br>
-              <strong>Previous Winner:</strong> N/A
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2291/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">EgoExo4D Keysteps</div>
-            <div class="challenge-track">Track: <b>Fine-grained Keystep Recognition</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Sherry Xue & Tushar Nagarajan, UT Austin, US<br>
-              <strong>Summary:</strong> <br>
-              <strong>Current SOTA:</strong> </a><br>
-              <strong>Previous Winner:</strong> </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2273/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">EgoExo4D Relations</div>
-            <div class="challenge-track">Track: <b>Correspondence</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong> Sanjay Haresh, Simon Fraser, Canada<br>
-              <strong>Summary:</strong> The challenge is aimed at methods for object correspondences across ego-centric and exo-centric views. Given a pair of time-synchronized egocentric and exocentric videos, as well as a query object track in one of the views, the goal is to output the corresponding mask for the same object instance in the other view for all frames where the object is visible in both views.<br>
-              <strong>Current SOTA:</strong> <a href="https://arxiv.org/pdf/2411.19083" target="_blank">Paper</a><br>
-              <strong>Previous Winner:</strong> N/A
-            </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2288/overview" class="challenge-link">Challenge Link</a>
-          </div>
-          <div class="challenge-card">
-            <div class="challenge-title">EgoExo4D Keysteps</div>
-            <div class="challenge-track">Track: <b>Procedure Understanding</b></div>
-            <div class="challenge-details">
-              <strong>Lead:</strong>Antonino Furnari, University of Catania, IT<br>
-              <strong>Summary:</strong>The objective of this task is to infer a procedure's underlying structure from observing natural videos of subjects performing the procedure.<br>
-              <strong>Current SOTA:</strong> </a><br>
-              <strong>Previous Winner:</strong> </div>
-            <a target="_blank" href="https://eval.ai/web/challenges/challenge-page/2286/overview" class="challenge-link">Challenge Link</a>
-          </div>
-        </div>
-      <h4 class="title2">EPIC-Kitchens Challenges</h4>
-      <p>Please check the <a href="https://epic-kitchens.github.io/2025#challenges" target="_blank">EPIC-KITCHENS website</a> for more information on the EPIC-KITCHENS challenges.
-      Links to individual challenges are also reported below.</p>
-      <div class="challenge-container">
-        <div class="challenge-card">
-          <div class="challenge-title">Action Recognition</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Prajwal Gatti and Siddhant Bansal, University of Bristol, UK<br>
-            <strong>Summary:</strong> Classify the action's verb and noun depicted in a trimmed video clip.<br>
-            <strong>Current SOTA:</strong> <a href="https://drive.google.com/file/d/1MqYUdSJQZTmwE4c2Sgh_rgGGyfq6yasS/view" target="_blank">Paper</a><br>
-            <strong>Previous Winner:</strong> 48.1% - top 1 / 77.4% - top 5
-          </div>
-          <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/776" class="challenge-link">Challenge Link</a>
-        </div>
-        <div class="challenge-card">
-          <div class="challenge-title">Action Detection</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Francesco Ragusa and Antonino Furnari, University of Catania, IT<br>
-            <strong>Summary:</strong> The challenge requires detecting and recognising all action instances within an untrimmed video. The challenge will be carried out on the EPIC-KITCHENS-100 dataset.<br>
-            <strong>Current SOTA:</strong> <a href="https://epic-kitchens.github.io/2024.html#results" target="_blank">Results</a><br>
-            <strong>Previous Winner:</strong> Action Avg. mAP 31.97
-          </div>
-          <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/707" class="challenge-link">Challenge Link</a>
-        </div>
-        <div class="challenge-card">
-          <div class="challenge-title">Domain Adaptation Challenge for Action Recognition</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Saptarshi Sinha and Prajwal Gatti, University of Bristol, UK<br>
-            <strong>Summary:</strong> Given labelled videos from the source domain and unlabelled videos from the target domain, the goal is to classify actions in the target domain. An action is defined as a verb and noun depicted in a trimmed video clip.<br>
-            <strong>Current SOTA:</strong> <a href="https://openreview.net/pdf?id=Rp4PA0ez0m" target="_blank">Paper</a><br>
-            <strong>Previous Winner:</strong> 43.17 for action accuracy
-          </div>
-          <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/1241" class="challenge-link">Challenge Link</a>
-        </div>
-        <div class="challenge-card">
-          <div class="challenge-title">Multi-Instance Retrieval</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Prajwal Gatti and Michael Wray, University of Bristol, UK<br>
-            <strong>Summary:</strong> Perform cross-modal retrieval by searching between vision and text modalities.<br>
-            <strong>Current SOTA:</strong> <a href="https://arxiv.org/abs/2406.12256v1" target="_blank">Paper</a><br>
-            <strong>Previous Winner:</strong> Normalised Discounted Cumulative Gain (%) Avg. - 74.25
-          </div>
-          <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/617" class="challenge-link">Challenge Link</a>
-        </div>
-        <div class="challenge-card">
-          <div class="challenge-title">Semi-Supervised Video-Object Segmentation</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Rhodri Guerrier and Ahmad Darkhalil, University of Bristol, UK<br>
-            <strong>Summary:</strong>Given a sub-sequence of frames with M object masks in the first frame, the goal of this challenge is to segment these through the remaining frames. Other objects not present in the first frame of the sub-sequence are excluded from this benchmark.<br>
-            <strong>Current SOTA:</strong><a href="https://epic-kitchens.github.io/2024.html#results" target="_blank">Webpage</a><br>
-            <!-- <strong>Previous Winner:</strong> -->
-          </div>
-          <a  target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/9767" class="challenge-link">Challenge Link</a>
-        </div>
-        <div class="challenge-card">
-          <div class="challenge-title">EPIC-SOUNDS Audio-Based Interaction Recognition</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Omar Emara and Jacob Chalk, University of Bristol, UK<br>
-            <strong>Summary:</strong> Recognising interactions from audio data from EPIC-Sounds (classify the audio).<br>
-            <strong>Current SOTA:</strong> User: JMCarrot<br>
-            <strong>Previous Winner:</strong> N/A
-          </div>
-          <a  target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/9729" class="challenge-link">Challenge Link</a>
-        </div>
-        <div class="challenge-card">
-          <div class="challenge-title">EPIC-SOUNDS Audio-Based Interaction Detection</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Omar Emara and Jacob Chalk, University of Bristol, UK<br>
-            <strong>Summary:</strong> Classify all audio-based interactions (recognition) from audio data of EPIC-Sounds and predict their start and end times for a given video.<br>
-            <strong>Current SOTA:</strong> User: shuming<br>
-            <strong>Previous Winner:</strong> N/A
-          </div>
-          <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/17921#results" class="challenge-link">Challenge Link</a>
-        </div>
-      </div>
-
-      <h4 class="title2">HD-EPIC Challenge</h4>
-      <p>Please check the <a href="https://hd-epic.github.io" target="_blank">HD-EPIC website</a> for more information on the HD-EPIC challenges.
-      Links to individual challenges are also reported below.</p>
-      <div class="challenge-container">
-        <div class="challenge-card">
-          <div class="challenge-title">HD-EPIC Challenges - VQA</div>
-          <div class="challenge-details">
-            <strong>Lead:</strong> Prajwal Gatti (University of Bristol, UK) and Kaiting Liu (Leiden University, Netherlands)<br>
-            <strong>Summary:</strong> Given a question belonging to any one of the seven types defined in the HD-EPIC VQA benchmark, the goal is to predict the correct answer among the five listed choices.<br>
-            <strong>Current SOTA:</strong> <a href="https://arxiv.org/abs/2502.04144" target="_blank">Gemini Pro</a><br>
-            <strong>Previous Winner:</strong> N/A
-          </div>
-          <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/22006" class="challenge-link">Challenge Link</a>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -593,55 +300,12 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 align-center">
-          <h3 class="title large-text">Call for Abstracts</h3>
+          <h3 class="title large-text">Call for Papers</h3>
         </div>
       </div>
-      <p class="justified">
-        You are invited to submit extended abstracts to the second
-        edition of joint egocentric vision workshop which will be held
-        alongside <a href="https://cvpr.thecvf.com">CVPR 2025</a> in Nashville.
+        <p>
+          Details coming soon...
         </p>
-        <p class=" justified">
-          These abstracts represent existing or ongoing work and will not be
-          published as part of any proceedings. We welcome all works that focus
-          within the Egocentric Domain, it is not necessary to use the Ego4D
-          dataset within your work. We expect a submission may contain one or
-          more of the following topics (this is a non-exhaustive list):
-      </p>
-      <ul class="cfp">
-        <li>Egocentric vision for human activity analysis and understanding, including action recognition, action detection, audio-visual action perception and object state change detection</li>
-        <li>Egocentric vision for anticipating human behaviour, actions and objects</li>
-        <li>Egocentric vision for 3D perception and interaction, including dynamic scene reconstruction, hand-object reconstruction, long-term object tracking, NLQ and visual queries, long-term video understanding</li>
-        <li>Head-mounted eye tracking and gaze estimation including attention modelling and next fixation prediction</li>
-        <li>Egocentric vision for object/event recognition and retrieval</li>
-        <li>Egocentric vision for summarization</li>
-        <li>Daily life and activity monitoring</li>
-        <li>Egocentric vision for human skill learning, assistance, and robotics</li>
-        <li>Egocentric vision for social interaction and human behaviour understanding</li>
-        <li>Privacy and ethical concerns with wearable sensors and egocentric vision</li>
-        <li>Egocentric vision for health and social good</li>
-        <li>Symbiotic human-machine vision systems, human-wearable devices interaction</li>
-        <li>Interactive AR/VR and Egocentric online/real-time perception</li>
-      </ul>
-      <h3 class="small-title">Format</h3>
-      <p class="justified">
-        The length of the extended abstracts is 2-4 pages, including figures,
-        tables, and references. We invite submissions of ongoing or
-        already published work, as well as reports on demonstrations and
-        prototypes. The joint egocentric vision workshop gives opportunities
-        for authors to present their work to the egocentric community to
-        provoke discussion and feedback. Accepted work will be presented as
-        either an oral presentation (either virtual or in-person) or as a
-        poster presentation. The review will be single-blind, so there is no
-        need to anonymize your work, but otherwise will follow the format of
-        the CVPR submissions, information can be found
-        <a href="https://github.com/cvpr-org/author-kit/releases/tag/CVPR2025-v3.1(latex)">here</a>.
-        Accepted abstracts <i>will not</i> be published as part of a proceedings, so
-        can be uploaded to ArXiv etc. and the links will be provided on the
-        workshop’s webpage.
-
-        The submission will be managed with the <a target="_blank" href="https://cmt3.research.microsoft.com/EgoVis2025/">CMT website</a>.
-      </p>
     </div>
   </section>
 
@@ -657,39 +321,39 @@
       <table class="dates-table">
         <tr>
             <td class='small-title'>Challenges Leaderboards Open</td>
-            <td>Feb 2025</td>
+            <td>TBD</td>
         </tr>
         <tr>
           <td class='small-title'>Challenges Leaderboards Close</td>
-          <td>19 May 2025<br>(some challenges have extended their deadline,<br>please check respective challenge's webpage)</td>
+          <td>TBD<br>
         </tr>
         <tr>
           <td class='small-title'>Challenges Technical Reports Deadline (on CMT)</td>
-          <td>23 May 2025 (11:55 PM AoE)<br>(some challenges have extended their deadline,<br>please check respective challenge's webpage)</td>
+          <td>TBD<br>
         </tr>
         <tr>
           <td class='small-title'>Notification to Challenge Winners</td>
-          <td>30 May 2025</td>
+          <td>TBD</td>
         </tr>
         <tr>
           <td class='small-title'>Challenge Reports ArXiv Deadline</td>
-          <td>6 June 2025</td>
+          <td>TBD</td>
         </tr>
         <tr>
           <td class='small-title'>Extended Abstract Deadline (on CMT)</td>
-            <td><s>2 May 2025</s> 9 May 2025</td>
+            <td>TBD</td>
         </tr>
         <tr>
           <td class='small-title'>Extended Abstract Notification to Authors</td>
-          <td>23 May 2025</td>
+          <td>TBD</td>
         </tr>
         <tr>
           <td class='small-title'>Extended Abstracts ArXiv Deadline</td>
-          <td>2 June 2025</td>
+          <td>TBD</td>
         </tr>
         <tr>
           <td class='small-title'>Workshop Date</td>
-          <td>12 June 2025</td>
+          <td>TBD</td>
         </tr>
       </table>
     </div>
@@ -703,434 +367,9 @@
         <h3 class="title large-text">Program</h3>
       </div>
     </div>
-    <div>
-      <p>
-        All dates are local to Nashville's time, CST.<br>
-        Workshop Location: Room <b>Grand B1</b>
-      </p>
-      <p>
-        <style>
-        table {
-          width: 100%;
-          border-collapse: collapse;
-        }
-
-        th, td {
-          padding: 8px;
-          text-align: left;
-          border-bottom: 1px solid #ddd;
-        }
-
-        th {
-          background-color: #f2f2f2;
-        }
-
-        tr:hover {
-          background-color: #f5f5f5;
-        }
-
-        ul.paper-list {
-          margin: 6px 0 0 16px;
-          padding-left: 1em;
-        }
-
-        ul.paper-list li {
-          margin-bottom: 4px;
-        }
-        </style>
-        <table style="margin-left: auto; margin-right: auto;">
-          <tr>
-            <th>Time</th>
-            <th>Event</th>
-          </tr>
-          <tr>
-            <td>08:50-09:00</td>
-            <td>Welcome and Introductions</td>
-          </tr>
-          <tr>
-            <td>09:00-09:30</td>
-            <td>Invited Keynote 1: <a href="https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html" target="_blank">Siyu Tang, ETH Zürich, CH</a><br><b>Talk Title: </b>Towards an egocentric <u>multimodal foundation model</u><br>(<a href="https://youtu.be/LeQWBeyguRU?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>09:30-10:00</td>
-            <td>HoloAssist Challenges<br>(<a href="https://youtu.be/zBRspeO7kdo?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>10:00-11:00</td>
-            <td>Coffee Break and <a href="#papers">Poster Session</a></td>
-          </tr>
-          <tr>
-            <td>11:00-11:30</td>
-            <td>Invited Keynote 2: <a href="https://kriskitani.github.io" target="_blank">Kris Kitani, CMU, USA</a></td>
-          </tr>
-          <tr>
-            <td>11:30-12:00</td>
-            <td>EPIC-KITCHENS & HD-EPIC Challenges<br>(<a href="https://youtu.be/7iw0cyLQzIQ?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>12:00-12:30</td>
-            <td>
-              Oral Presentations (<b>Group 1</b>) (<a href="https://youtu.be/AbBQ8fjrvto?feature=shared">Recorded Video</a>)
-              <ul class="paper-list">
-                <li>EgoLife: Towards Egocentric Life Assistant</li>
-                <li>HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos</li>
-                <li>VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation</li>
-                <li>Discovering Hidden Visual Concepts Beyond Linguistic Input in Infant Learning</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>12:30-13:30</td>
-            <td>Lunch Break</td>
-          </tr>
-          <tr>
-            <td>13:30-14:00</td>
-            <td>EgoVis Distinguished Papers Award<br>(<a href="https://youtu.be/Qbvg-s1bZLQ?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>14:00-14:30</td>
-            <td>Invited Keynote 3: <a href="https://xiaolonw.github.io/index.html" target="_blank">Xiaolong Wang, UCSD, USA</a><br>(<a href="https://youtu.be/cdVWzfzPecI?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>14:30-15:30</td>
-            <td>Ego4D & Ego-Exo4D Challenges<br>(<a href="https://youtu.be/iz2Flo4ZVm4?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>15:30-16:00</td>
-            <td>Coffee Break</td>
-          </tr>
-          <tr>
-            <td>16:00-16:30</td>
-            <td>Invited Keynote 4: <a href="https://a-nagrani.github.io" target="_blank">Arsha Nagrani, Google DeepMind</a><br>(<a href="https://youtu.be/swVghmTP2I8?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>16:30-17:05</td>
-            <td>Aria Gen2<br>(<a href="https://youtu.be/N-J6Tk7ssqU?feature=shared">Recorded Video</a>)</td>
-          </tr>
-          <tr>
-            <td>17:05-17:35</td>
-            <td>
-              Oral Presentations (<b>Group 2</b>) (<a href="https://youtu.be/pr0OiDW2asA?feature=shared">Recorded Video</a>)
-              <ul class="paper-list">
-                <li>FIction: 4D Future Interaction Prediction from Video</li>
-                <li>EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision</li>
-                <li>Estimating Body and Hand Motion in an Ego‑sensed World</li>
-                <li>Online Episodic Memory Visual Query Localization with Egocentric Streaming Object Memory</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>17:35-17:45</td>
-            <td>Conclusion</td>
-          </tr>
-        </table>
-      </p>
-    </div>
+    <p>Details coming soon...</p>
   </div>
 </section>
-
-  <section id="papers">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 align-center">
-          <h3 class="title large-text">Papers</h3>
-          <p><b>Note to authors:</b> Please hang your poster in Hall D against the boards with workshop's name. Posters can be put up ONLY during the poster session time (10.00 - 11.00).<br>Follow <a href="https://cvpr.thecvf.com/Conferences/2025/PosterPrintingInformation">CVPR poster guidelines</a> for poster dimensions.</p>
-          <p>All workshop posters are in <b>Exhibition Hall D</b>.</p>
-          <h4 class="small-title">Extended Abstracts</h4>
-          <table>
-            <tr>
-              <th>Poster<br>Board #</th>
-              <th>Title</th>
-              <th>Authors</th>
-              <th>arXiv Link</th>
-            </tr>
-            <tr>
-              <td>77</td>
-              <td>Leadership Assessment in Pediatric Intensive Care Unit Team Training</td>
-              <td>Liangyang Ouyang (The University of Tokyo); Yuki Sakai (The University of Tokyo); Ryosuke Furuta (The University of Tokyo); Hisataka Nozawa (The University of Tokyo); Hikoro Matsui (The University of Tokyo); Yoichi Sato (The University of Tokyo)</td>
-              <td><a href="https://arxiv.org/abs/2505.24389">link</a></td>
-            </tr>
-            <tr>
-              <td>78</td>
-              <td>What Changed and What Could Have Changed? State-Change Counterfactuals for Procedure-Aware Video Representation Learning</td>
-              <td>Chi-Hsi Kung (Indiana University); Frangil Ramirez (Indiana University); Juhyung Ha (Indiana University); Yi-Ting Chen (National Yang-Ming Chiao-Tung University); David Crandall (Indiana University); Yi-Hsuan Tsai (Atmanity Inc.)</td>
-              <td><a href="https://arxiv.org/abs/2506.00101">link</a></td>
-            </tr>
-            <tr>
-              <td>79</td>
-              <td>Online Episodic Memory Visual Query Localization with Egocentric Streaming Object Memory</td>
-              <td>Zaira Manigrasso (University of Udine); Matteo Dunnhofer (University of Udine); Antonino Furnari (University of Catania); Moritz nottebaum (University of Udine); Antonio Finocchiaro (University of Catania); Davide Marana (University of Udine); Rosario Forte (University of Catania); Giovanni Maria Farinella (University of Catania); Micheloni Christian (University of Udine)</td>
-              <td><a href="https://arxiv.org/pdf/2411.16934">link</a></td>
-            </tr>
-            <tr>
-              <td>80</td>
-              <td>Discovering Hidden Visual Concepts Beyond Linguistic Input in Infant Learning</td>
-              <td>Xueyi Ke (Nanyang Technological University); Satoshi Tsutsui (Nanyang Technological University, Singapore); Yayun Zhang (Max Planck Institute for Psycholinguistics); Bihan Wen (Nanyang Technological University)</td>
-              <td><a href="https://arxiv.org/abs/2501.05205">link</a></td>
-            </tr>
-            <tr>
-              <td>81</td>
-              <td>PAIR-Net: Enhancing Egocentric Speaker Detection via Pretrained Audio–Visual Fusion and Alignment Loss</td>
-              <td>Yu Wang (Indiana University); Juhyung Ha (Indiana University Bloomington); David Crandall (Indiana University)</td>
-              <td><a href="https://arxiv.org/abs/2506.02247">link</a></td>
-            </tr>
-            <tr>
-              <td>82</td>
-              <td>From My View to Yours: Ego-Augmented Learning in Large Vision Language Models for Understanding Exocentric Daily Living Activities</td>
-              <td>Dominick Reilly (University of North Carolina at Charlotte); Manish Kumar Govind (University of North Carolina at Charlotte); Le Xue (Salesforce AI Research); Srijan Das (University of North Carolina at Charlotte)</td>
-              <td><a href="https://arxiv.org/abs/2501.05711">link</a></td>
-            </tr>
-            <tr>
-              <td>83</td>
-              <td>EASG-Bench : Video Q&A Benchmark with Egocentric Action Scene Graphs</td>
-              <td>Ivan Rodin (University of Catania); Tz-Yin Wu (Intel Labs); Kyle Min (Intel Labs); Sharath Sridhar (Intel Labs); Antonino Furnari (University of Catania); Subarna Tripathi (Intel Labs); Giovanni Maria Farinella (University of Catania)</td>
-              <td><a href="https://arxiv.org/pdf/2506.05787">link</a></td>
-            </tr>
-            <tr>
-              <td>84</td>
-              <td>ProbRes: Probabilistic Jump Diffusion for Open-World Egocentric Activity Recognition</td>
-              <td>Sanjoy Kundu (Auburn University); Shanmukha Vellamcheti (Auburn University); Sathyanarayan N. Aakur (Auburn University)</td>
-              <td><a href="https://arxiv.org/abs/2505.22858">link</a></td>
-            </tr>
-            <tr>
-              <td>85</td>
-              <td>Reasoning on hierarchical representation of human behavior from Ego-videos</td>
-              <td>Simone Alberto Peirone (Politecnico di Torino); Francesca Pistilli (Politecnico di Torino); Giuseppe Averta (Politecnico di Torino)</td>
-              <td><a href="https://sapeirone.github.io/assets/pdf/HiERO_egovis.pdf">link</a></td>
-            </tr>
-            <tr>
-              <td>86</td>
-              <td>Learning reusable concepts across different egocentric video understanding tasks</td>
-              <td>Simone Alberto Peirone (Politecnico di Torino); Francesca Pistilli (Politecnico di Torino); Antonio Alliegro (Politecnico di Torino); Tatiana Tommasi (Politecnico di Torino); Giuseppe Averta (Politecnico di Torino)</td>
-              <td><a href="https://arxiv.org/abs/2505.24690">link</a></td>
-            </tr>
-            <tr>
-              <td>87</td>
-              <td>Efficient Egocentric Action Recognition with Multimodal Data</td>
-              <td>Marco Calzavara (ETH Zurich); Ard Kastrati (ETH Zurich); Matteo Macchini (Magic Leap); Dushan Vasilevski (Magic Leap); Roger Wattenhofer (ETH Zurich)</td>
-              <td><a href="http://arxiv.org/abs/2506.01757">link</a></td>
-            </tr>
-            <tr>
-              <td>88</td>
-              <td>Sequence-Based Identification of First-Person Camera Wearers in Third-Person Views</td>
-              <td>Ziwei Zhao (Indiana University); Xizi Wang (Indiana University); Yuchen Wang (Indiana University); Feng Cheng (ByteDance); David Crandall (Indiana University)</td>
-              <td><a href="https://arxiv.org/abs/2506.00394">link</a></td>
-            </tr>
-            <tr>
-              <td>89</td>
-              <td>Vid2Coach: Transforming How-To Videos into Task Assistants</td>
-              <td>Mina Huh (University of Texas at Austin); Zihui Xue (University of Texas at Austin); Ujjaini Das (University of Texas at Austin); Kumar Ashutosh (University of Texas at Austin); Kristen Grauman (University of Texas at Austin); Amy Pavel (University of Texas at Austin)</td>
-              <td><a href="https://arxiv.org/abs/2506.00717">link</a></td>
-            </tr>
-            <tr>
-              <td>90</td>
-              <td>Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera</td>
-              <td>Zhengdi Yu (Imperial College London); Stefanos Zafeiriou (Imperial College London); Tolga Birdal (Imperial College London)</td>
-              <td><a href="https://arxiv.org/abs/2412.12861">link</a></td>
-            </tr>
-            <tr>
-              <td>91</td>
-              <td>Keystep Recognition using Graph Neural Networks</td>
-              <td>Julia Romero (University of Colorado Boulder); Kyle Min (Intel Labs); Subarna Tripathi (Intel Labs); Morteza Karimzadeh (University of Colorado Boulder)</td>
-              <td><a href="https://arxiv.org/abs/2506.01102">link</a></td>
-            </tr>
-            <tr>
-              <td>92</td>
-              <td>Improving Keystep Recognition in Ego-Video via Dexterous Focus</td>
-              <td>Zachary Chavis (University of Minnesota); Stephen Guy (University of Minnesota); Hyun Soo Park (University of Minnesota)</td>
-              <td><a href="https://arxiv.org/abs/2506.00827">link</a></td>
-            </tr>
-          </table>
-<br>
-          <h4 class="small-title">Invited CVPR Papers</h4>
-          <table>
-            <tr>
-              <th>Poster<br>Board #</th>
-              <th>Title</th>
-              <th>Authors</th>
-              <th>Paper Link</th>
-              <!-- <th>CVPR 2025 Presentation Details</th> -->
-            </tr>
-            <tr>
-              <td>93</td>
-              <td>HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos</td>
-              <td>Prithviraj Banerjee, Sindi Shkodrani, Pierre Moulon, Shreyas Hampali, Shangchen Han, Fan Zhang, Linguang Zhang, Jade Fountain, Edward Miller, Selen Basol, Richard Newcombe, Robert Wang, Jakob Engel, Tomas Hodan</td>
-              <td><a href="https://arxiv.org/abs/2411.19167">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>94</td>
-              <td>Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision</td>
-              <td>Tomoya Yoshida, Shuhei Kurita, Taichi Nishimura, Shinsuke Mori</td>
-              <td><a href="https://biscue5.github.io/egoscaler-project-page/">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>95</td>
-              <td>FRAME: Floor-aligned Representation for Avatar Motion from Egocentric Video</td>
-              <td>Andrea Boscolo Camiletto, Jian Wang, Eduardo Alvarado, Rishabh Dabral, Thabo Beeler, Marc Habermann, Christian Theobalt</td>
-              <td><a href="https://vcai.mpi-inf.mpg.de/projects/FRAME/">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>96</td>
-              <td>Omnia de EgoTempo: Benchmarking Temporal Understanding of Multi-Modal LLMs in Egocentric Videos</td>
-              <td>Chiara Plizzari, Alessio Tonioni, Yongqin Xian, Achin Kulshrestha, Federico Tombari</td>
-              <td><a href="https://arxiv.org/abs/2503.13646v1">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>97</td>
-              <td>HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos</td>
-              <td>Jinglei Zhang, Jiankang Deng, Chao Ma, Rolandos Alexandros Potamias</td>
-              <td><a href="https://arxiv.org/abs/2501.02973">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>98</td>
-              <td>Layered motion fusion: Lifting motion segmentation to 3D in egocentric videos</td>
-              <td>Vadim Tschernezki, Diane Larlus, Andrea Vedaldi, Iro Laina</td>
-              <td><a href="https://www.robots.ox.ac.uk/~vedaldi/assets/pubs/tschernezki25layered.pdf">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>99</td>
-              <td>REWIND: Real-Time Egocentric Whole-Body Motion Diffusion with Exemplar-Based Identity Conditioning</td>
-              <td>Jihyun Lee, Weipeng Xu, Alexander Richard, Shih-En Wei, Shunsuke Saito, Shaojie Bai, Te-Li Wang, Minhyuk Sung, Tae-Kyun Kim, Jason Saragih</td>
-              <td><a href="https://www.arxiv.org/abs/2504.04956">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>100</td>
-              <td>EgoTextVQA: Towards Egocentric Scene-Text Aware Video Question Answering</td>
-              <td>Sheng Zhou, Junbin Xiao, Qingyun Li, Yicong Li, Xun Yang, Dan Guo, Meng Wang, Tat-seng Chua, Angela Yao</td>
-              <td><a href="https://arxiv.org/abs/2502.07411">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>101</td>
-              <td>EgoLife: Towards Egocentric Life Assistant</td>
-              <td>Jingkang Yang, Shuai Liu, Hongming Guo, Yuhao Dong, Xiamengwei Zhang, Sicheng Zhang, Pengyun Wang, Zitang Zhou, Binzhu Xie, Ziyue Wang, Bei Ouyang, Zhengyu Lin, Marco Cominelli, Zhongang Cai, Bo Li, Yuanhan Zhang, Peiyuan Zhang, Fangzhou Hong, Joerg Widmer, Francesco Gringoli, Lei Yang, Ziwei Liu</td>
-              <td><a href="http://arxiv.org/abs/2503.03803v1">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>102</td>
-              <td>DIV-FF: Dynamic Image-Video Feature Fields For Environment Understanding in Egocentric Video</td>
-              <td>Lorenzo Mur-Labadia, Jose J. Guerrero, Ruben Martinez-Cantin</td>
-              <td><a href="https://arxiv.org/abs/2503.08344">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>103</td>
-              <td>Gazing Into Missteps: Leveraging Eye-Gaze for Unsupervised Mistake Detection in Egocentric Videos of Skilled Human Activities</td>
-              <td>Michele Mazzamuto, Antonino Furnari, Yoichi Sato, Giovanni Maria Farinella</td>
-              <td><a href="https://arxiv.org/abs/2406.08379">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>104</td>
-              <td>EgoLM: Multi-Modal Language Model of Egocentric Motions</td>
-              <td>Fangzhou Hong, Vladimir Guzov, Hyo Jin Kim, Yuting Ye, Richard Newcombe, Ziwei Liu, Lingni Ma</td>
-              <td><a href="https://arxiv.org/abs/2409.18127">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>105</td>
-              <td>EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision</td>
-              <td>Yiming Zhao, Taein Kwon, Paul Streli, Marc Pollefeys, Christian Holz</td>
-              <td><a href="http://arxiv.org/abs/2409.02224v2">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>106</td>
-              <td>HD-EPIC: A Highly-Detailed Egocentric Video Dataset</td>
-              <td>Toby Perrett, Ahmad Darkhalil, Saptarshi Sinha, Omar Emara, Sam Pollard, Kranti Kumar Parida, Kaiting Liu, Prajwal Gatti, Siddhant Bansal, Kevin Flanagan, Jacob Chalk, Zhifan Zhu, Rhodri Guerrier, Fahd Abdelazim, Bin Zhu, Davide Moltisanti, Michael Wray, Hazel Doughty, Dima Damen</td>
-              <td><a href="https://hd-epic.github.io/">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>107</td>
-              <td>Estimating Body and Hand Motion in an Ego‑sensed World</td>
-              <td>Brent Yi, Vickie Ye, Maya Zheng, Yunqi Li, Lea Müller, Georgios Pavlakos, Yi Ma, Jitendra Malik, Angjoo Kanazawa</td>
-              <td><a href="https://arxiv.org/abs/2410.03665">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>108</td>
-              <td>Bootstrap Your Own Views: Masked Ego-Exo Modeling for Fine-grained View-invariant Video Representations</td>
-              <td>Jungin Park, Jiyoung Lee, Kwanghoon Sohn</td>
-              <td><a href="https://arxiv.org/pdf/2503.19706">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>109</td>
-              <td>GEM: A Generalizable Ego-vision Multimodal World Model for Fine-Grained Ego-Motion, Object Dynamics, and Scene Composition Control</td>
-              <td>Mariam Hassan, Sebastian Stapf, Ahmad Rahimi, Pedro M B Rezende, Yasaman Haghighi, David Brüggemann, Isinsu Katircioglu, Lin Zhang, Xiaoran Chen, Suman Saha, Marco Cannici, Elie Aljalbout, Botao Ye, Xi Wang, Aram Davtyan, Mathieu Salzmann, Davide Scaramuzza, Marc Pollefeys, Paolo Favaro, Alex Alahi</td>
-              <td><a href="https://arxiv.org/pdf/2412.11198">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>110</td>
-              <td>Viewpoint Rosetta Stone: Unlocking Unpaired Ego-Exo Videos for View-invariant Representation Learning</td>
-              <td>Mi Luo, Zihui Xue, Alex Dimakis, Kristen Grauman</td>
-              <td><a href="https://arxiv.org/pdf/2412.11198">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>111</td>
-              <td>Which Viewpoint Shows it Best? Language for Weakly Supervising View Selection in Multi-view Instructional Videos</td>
-              <td>Sagnik Majumder, Tushar Nagarajan, Ziad Al-Halah, Reina Pradhan, Kristen Grauman</td>
-              <td><a href="https://arxiv.org/pdf/2411.08753">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>112</td>
-              <td>ExpertAF: Expert Actionable Feedback from Video</td>
-              <td>Kumar Ashutosh, Tushar Nagarajan, Georgios Pavlakos, Kris Kitani, Kristen Grauman</td>
-              <td><a href="https://arxiv.org/abs/2408.00672">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>113</td>
-              <td>FIction: 4D Future Interaction Prediction from Video</td>
-              <td>Kumar Ashutosh, Georgios Pavlakos, Kristen Grauman</td>
-              <td><a href="https://arxiv.org/pdf/2412.00932">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>114</td>
-              <td>Progress-Aware Video Frame Captioning</td>
-              <td>Zihui Xue, Joungbin An, Xitong Yang, Kristen Grauman</td>
-              <td><a href="https://arxiv.org/abs/2412.02071">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>115</td>
-              <td>BIMBA: Selective-Scan Compression for Long-Range Video Question Answering</td>
-              <td>Md Mohaiminul Islam, Tushar Nagarajan, Huiyu Wang, Gedas Bertasius, Lorenzo Torresani</td>
-              <td><a href="https://arxiv.org/abs/2503.09590">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>116</td>
-              <td>VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos</td>
-              <td>Ziyang Wang, Shoubin Yu, Elias Stengel-Eskin, Jaehong Yoon, Feng Cheng, Gedas Bertasius, Mohit Bansal</td>
-              <td><a href="https://arxiv.org/abs/2405.19209">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-            <tr>
-              <td>117</td>
-              <td>VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation</td>
-              <td>Hanzhi Chen, Boyang Sun, Anran Zhang, Marc Pollefeys, Stefan Leutenegger</td>
-              <td><a href="https://arxiv.org/abs/2503.07135">link</a></td>
-              <!-- <td>TBD</td> -->
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
   <section id="invited">
@@ -1143,27 +382,45 @@
           <div class="consortium_logos">
             
             <div class="image">
-              <img src="assets/images/siyu.jpeg" alt="" title="" /><br /><a class="slide-text"
-                href="https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html">Siyu Tang</a>
-              <p class="slide-text" style="text-align: center">ETH Zürich</p>
+              <img src="assets/images/jawahar.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://www.iiit.ac.in/faculty/jawahar-c-v/">CV Jawahar</a>
+              <p class="slide-text" style="text-align: center">IIIT Hyderabad, India</p>
               
             </div>
             <div class="image">
-              <img src="assets/images/kris.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://kriskitani.github.io">Kris Kitani</a>
-              <p class="slide-text" style="text-align: center">Carnegie Mellon University, USA</p>
+              <img src="assets/images/lorenzo.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://ltorresa.github.io/home.html">Lorenzo Torresani</a>
+              <p class="slide-text" style="text-align: center">Northeastern University, USA</p>
               
             </div>
             <div class="image">
-              <img src="assets/images/xiaolonw.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://xiaolonw.github.io/index.html">Xiaolong Wang</a>
-              <p class="slide-text" style="text-align: center">UCSD, USA</p>
+              <img src="assets/images/jeannette.png" alt="" title="" /><br /><a class="slide-text"
+                href="https://web.stanford.edu/~bohg/">Jeannette Bohg</a>
+              <p class="slide-text" style="text-align: center">Stanford University, USA</p>
 
             </div>
             <div class="image">
-              <img src="assets/images/arsha.jpeg" alt="" title="" /><br /><a class="slide-text"
-                href="https://a-nagrani.github.io">Arsha Nagrani</a>
-              <p class="slide-text" style="text-align: center">Google DeepMind</p>
+              <img src="assets/images/marc.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://people.inf.ethz.ch/marc.pollefeys/">Marc Pollefeys</a>
+              <p class="slide-text" style="text-align: center">ETH Zurich, Switzerland</p>
+              
+            </div>
+            <div class="image">
+              <img src="assets/images/hazel.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://hazeldoughty.github.io/">Hazel Doughty</a>
+              <p class="slide-text" style="text-align: center">Leiden University, Netherlands</p>
+              
+            </div>
+            <div class="image">
+              <img src="assets/images/sgupta.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="http://saurabhg.web.illinois.edu">Saurabh Gupta</a>
+              <p class="slide-text" style="text-align: center">University of Illinois, USA</p>
+              
+            </div>
+            <div class="image">
+              <img src="assets/images/ziwei.png" alt="" title="" /><br /><a class="slide-text"
+                href="https://liuziwei7.github.io">Ziwei Liu</a>
+              <p class="slide-text" style="text-align: center">Nanyang Technological University, Singapore</p>
               
             </div>
           </div>
@@ -1185,6 +442,16 @@
               <img src="assets/images/Siddhant.jpeg" alt="" title="" /><br /><a class="slide-text"
                 href="https://sid2697.github.io/">Siddhant Bansal</a>
               <p class="slide-text">University of Bristol</p>
+            </div>
+            <div class="image">
+              <img src="assets/images/masashi.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://masashi-hatano.github.io">Masashi Hatano</a>
+              <p class="slide-text">Keio University</p>
+            </div>
+            <div class="image">
+              <img src="assets/images/chiara.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://chiaraplizz.github.io">Chiara Plizzari</a>
+              <p class="slide-text">Bocconi University</p>
             </div>
             <div class="image">
               <img src="assets/images/Antonino.png" alt="" title="" /><br /><a class="slide-text"
@@ -1266,6 +533,7 @@
       <div>
         <p>This workshop follows the footsteps of the following previous events:</p>
         <ul class="cfp">
+          <li><a href="https://egovis.github.io/cvpr25" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EgoVis@CVPR2025: Second Joint Egocentric Vision (EgoVis) Workshop</a> in conjunction with <a href="https://cvpr2025.thecvf.com" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2025</a>;</li>
           <li><a href="https://egovis.github.io/cvpr24" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EgoVis@CVPR2024: First Joint Egocentric Vision (EgoVis) Workshop</a> in conjunction with <a href="https://cvpr2024.thecvf.com" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2024</a>;</li>
         </ul>
         <br>
@@ -1281,7 +549,7 @@
           <li><a href="http://www.epic-workshop.org/EPIC_ICCV19/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ICCV19:  The Fifth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://iccv2019.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ICCV 2019</a>;</li>
           <li><a href="http://www.epic-workshop.org/EPIC_CVPR19/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@CVPR19: The Fourth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://cvpr2019.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2019</a>;</li>
           <li><a href="http://www.epic-workshop.org/EPIC_ECCV18/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ECCV18: The Third International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="https://eccv2018.org/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ECCV 2018</a>;</li>
-          <li><a href="http://www.epic-workshop.org/EPIC_ICCV17/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ICCV17: The Second International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://iccv2017.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ICCV 2017</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ICCV17/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ICCV17: The Third International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://iccv2017.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ICCV 2017</a>;</li>
           <li><a href="http://www.epic-workshop.org/EPIC_ECCV16/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ECCV16: The First International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://www.eccv2016.org/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ECCV 2016</a>;</li>
         </ul><br>
           <p class="small-title">Human Body, Hands, and Activities from Egocentric and Multi-view Cameras Past Workshops:</p>
