@@ -198,10 +198,23 @@
       </p>
 
       <p>
-        Previously, research in this field faced challenges due to limited datasets in a data-intensive environment. However, the community's recent efforts have addressed this issue by releasing numerous large-scale datasets covering various aspects of egocentric perception, including Ego4D, Ego-Exo4D, EPIC-KITCHENS, HD-EPIC, EgoCross, and CASTLE.
+        Previously, research in this field faced challenges due to limited datasets in a data-intensive environment. However, the community's recent efforts have addressed this issue by releasing numerous large-scale datasets covering various aspects of egocentric perception, including HoloAssist, Ego4D, Ego-Exo4D, EPIC-KITCHENS, HD-EPIC, EgoCross, and CASTLE.
 <section>
   <div class="container">
     <div class="row card-row">
+      <div class="col-xs-12 col-sm-4 col-lg-4 card-block">
+        <a href="https://holoassist.github.io" class="block" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="assets/images/Hololens.png" alt="Hololens 2 Image" />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">HoloAssist</h3>
+            </div>
+          </div>
+        </a>
+      </div>
       <div class="col-xs-12 col-sm-4 col-lg-4 card-block">
         <a href="https://ego-exo4d-data.org" class="block" target="_blank"
           rel="noopener noreferrer">
@@ -307,6 +320,21 @@
         Participants to the challenges are requested to submit a technical report on their method. 
         This is a requirement for the competition. Reports should be 2-6 pages including references. 
         Submissions should use <a target="_blank" href="https://github.com/cvpr-org/author-kit/archive/refs/tags/CVPR2026-v1(latex).zip">the CVPR format</a> and should be submitted through the <a href="https://cmt3.research.microsoft.com/EgoVis2026/">CMT website</a>.</p>
+        <h4 class="title2">HoloAssist Challenges</h4>
+        <p><a target="_blank" href="https://holoassist.github.io/">HoloAssist</a> is a large-scale egocentric human interaction dataset, where two people collaboratively complete physical manipulation tasks.</p>
+        <div class="challenge-container">
+          <div class="challenge-card">
+            <div class="challenge-title">Mistake Detection</div>
+            <div class="challenge-details">
+              <strong>Lead:</strong>Taein Kwon, Meta, Switzerland & Mahdi Rad, Microsoft, Switzerland<br>
+              <strong>Summary:</strong>Mistake detection is defined following the convention Assembly101 but applied to fine-grained actions in our benchmark. We take the features from the fine-grained action clips from the beginning of the coarse-grained action until the end of the current action clip, and the model predicts a label from {correct, mistake}.<br>
+              <!-- <strong>Current SOTA:</strong> </a><br> -->
+              <!-- <strong>Previous Winner:</strong> -->
+              </div>
+            <a target="_blank" href="https://www.codabench.org/competitions/2613/" class="challenge-link">Challenge Link</a>
+          </div>
+        </div>
+        </div>
 
         <h4 class="title2">Ego4D Challenges</h4>
         <p>Ego4D is a massive-scale, egocentric dataset and benchmark suite collected across 
