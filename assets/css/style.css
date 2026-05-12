@@ -6,6 +6,33 @@
   border: none;
 }
 
+/* Sponsor section */
+#spon .sponsor-logo {
+  width: 100%;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+#spon .sponsor-logo a {
+  display: inline-block;
+  max-width: 100%;
+}
+
+#spon .sponsor-logo img {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+
+  border-radius: 0;
+  clip-path: none;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
 html {
   scroll-behavior: smooth;
 }
